@@ -1,0 +1,49 @@
+.messagesList {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+
+.icon {
+  margin-right: 10px;
+}
+
+.messageCard {
+  width: 100%;
+  margin: 5px 20px;
+  max-width: 800px;
+  padding: 10px;
+  border-radius: 6px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
