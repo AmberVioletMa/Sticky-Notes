@@ -32,3 +32,11 @@ Notes:
 - Install all the dependencies (npm install)
 - Run the front-end (npm start) (it will run on port 3000)
 - If the page does not open by itself you can see the page at the following url: http://localhost:3000/
+
+Here you can get a first glimpse of what the project will look like and what to expect.
+
+![ezgif.com-gif-maker-256f26f54b285e29f.gif](https://s10.gifyu.com/images/ezgif.com-gif-maker-256f26f54b285e29f.gif)
+
+Here you can see how the sockets work when you add, edit or remove a note, making the update on the screen of other users at the same time.
+
+![ezgif.com-gif-maker-34b1c757a960766e0.gif](https://s10.gifyu.com/images/ezgif.com-gif-maker-34b1c757a960766e0.gif)
