@@ -1,11 +1,12 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
+const config = require('config');
 
 let dbConnection;
 
 module.exports = {
   connectToServer: function () {
-    MongoClient.connect('mongodb://localhost', { useNewUrlParser: true }, async function (err, client) {
+    MongoClient.connect(`mongodb://${config.get('mongo.host')}:${config.get('mongo.port')}`, { useNewUrlParser: true }, async function (err, client) {
       if (err || !client) {
           console.log(err);
         return;
